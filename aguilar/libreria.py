@@ -25,6 +25,7 @@ def validar_rango(num,ri,rf):
             return False
     else:
         return False
+    #fin_if
 #fin_def
 
 def pedir_numero(msg,ri,rf):
@@ -70,6 +71,7 @@ def validar_tamano(tam):
             return False
     else:
         return False
+    #fin_if
 #fin_def
 
 def pedir_tamano(msg):
