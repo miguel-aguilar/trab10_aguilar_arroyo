@@ -144,6 +144,7 @@ def pedir_ruc(msg):
 
 def validar_juego(juego):
     if(isinstance(juego,str)):
+        juego=juego.lower()
         if(juego=="mario" or juego=="pes"):
             return True
         else:
